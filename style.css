@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body{
+
+    background-image:url("background.jpg")  ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Josefin Sans', sans-serif;
+    
+    display: flex;
+    list-style-type: none;
+    height: 38px;
+    justify-content: space-between;
+    background-color: rgb(199, 187, 59);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius:3px;
+
+}
+nav ul li{
+   list-style-type: none;
+   display:inline-block;
+   margin: -9px 17px;
+   padding: 21px 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.logo img{
+
+    width: 45px;
+    position: absolute;
+}
+.containeer{
+    min-height: 77vh;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    margin: 19px 10px;
+    width: 59%;
+    height: 60%;
+    border-radius: 10px;
+    background-image: url("futurenostalgia.png");
+   
+}
+.bottom{
+
+    position: fixed;
+    height:75px;
+    width: 100%;
+    background-color: rgb(199, 187, 59);
+    bottom: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    
+}
+.icons{
+
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+h1{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+}
+#progress{
+
+    width: 85vw;
+    cursor: pointer;
+    
+    
+}
+.songitem{
+    display: flex;
+    height: 25px;
+    background-color:rgb(31, 101, 129);
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    margin: 10px 0px;
+    border-radius: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.songcontaineer{
+
+    margin-top: 30px;
+}
+.songitem img{
+    width: 20px;
+    margin: 0px 20px;
+    border-radius: 30px;
+}
+.time, .playpause{
+    margin: 0px 20px;
+    padding: 0px 20px;
+}
+.playpause{
+    cursor: pointer;
+}
+.songinfo{
+    padding: 0px 15px;
+    position: absolute;
+    right:7vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity is ease-in ;
+}
+.containeer2{
+
+    background-color: red;
+    position: absolute;
+    top: 4vw;
+    right: 0vw;
+    margin: 1px 5px;
+    width: 39%;
+    min-height: 77vh;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    
+}
+h2,p{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+}
+
+.con{
+   
+    display: flex;
+    display: block;
+    
+    
+
+}
